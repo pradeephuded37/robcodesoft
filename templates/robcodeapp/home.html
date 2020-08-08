@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    <title>Home Page</title>
+{% endblock %}
+
+{% block content %}
+      <div class="container">
+        <div class="jumbotron">
+          <img src="{% static 'images/companylogo.jpg' %}" alt="No Image Found" height="100" width="100">
+          <h1> Welcome to Robcode Software Pvt Ltd</h1>
+          <a href="#" class="btn btn-outline-primary mr-4">Hire Us</a>
+          
+          <a href="#" class="btn btn-outline-primary">Join Us</a> 
+          
+        </div>
+      </div>
+      
+    
+{% endblock %}
+

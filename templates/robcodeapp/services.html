@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block title %}
+    <title>our services</title>
+{% endblock %}
+
+{% block content %}
+
+      <!--Start Services-->
+ <div class="container text-center border-bottom">
+  <h2>Our Services</h2>
+<div class="row mt-4">
+<div class="col-sm-4 mb-4">
+  <img src="{% static 'images/android.png' %}" alt="No Image Found" height="100" width="100">
+  <h4 class="mt-4">Android Applications</h4>
+</div> 
+
+<div class="col-sm-4 mb-4">
+  <img src="{% static 'images/web.jpeg' %}" alt="No Image Found" height="100" width="100">
+    <h4 class="mt-4">Web Applications</h4>
+  </div>
+
+<div class="col-sm-4 mb-4">
+  <img src="{% static 'images/robot.jpg' %}" alt="No Image Found" height="100" width="100">
+    <h4 class="mt-4">Robot Applications</h4>
+  </div>
+</div>
+  </div>
+  
+
+ <!--End services-->
+ 
+{% endblock %}
